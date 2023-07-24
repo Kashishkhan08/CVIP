@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/cbb014cbc3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><i class="fa-brands fa-kaggle fa-2xl"></i></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="seating.html">Seating</a></li>
+            <li><a href="living.html">Living</a></li>
+            <li><a href="outdoor.html">Outdoor</a></li>
+            <li><a href="bedroom.html">Bedroom</a></li>
+            <li><a href="cart.html"><i class="fas fa-bag-shopping"></i></a></li>
+        </ul>
+    </div>
+</section>
+<section id="prod-details" class="section-p1">
+    <div class="single-pro-image">
+        <img src="https://media.graphassets.com/resize=w:1209,fit:crop/output=format:webp/compress/xehq1HwZRCKpJVOtfLnh" width="100%"  id='MainImg'alt="">
+    <div class="small-img-group">
+        <div class="small-img-col">
+            <img src="https://media.graphassets.com/resize=w:1209,fit:crop/output=format:webp/compress/xehq1HwZRCKpJVOtfLnh" width="100%"  class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="https://media.graphassets.com/resize=w:1209,fit:crop/output=format:webp/compress/qMV82lAfTZ2vOhRqmPgg" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="https://media.graphassets.com/resize=w:1209,fit:crop/output=format:webp/compress/UNqShqESIWqMtyjH91Ng" width="100%"  class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="https://media.graphassets.com/resize=w:1209,fit:crop/output=format:webp/compress/nW34mykSRWMfsKBwXaPR" width="100%"  class="small-img" alt="">
+        </div>
+</div>
+</div>
+<div class="single-pro-details">
+    <h5>Home/Sofas</h5>
+    <h4>Relay 2-piece Sofa</h4>
+    <h2>$139.00</h2>
+    <select >
+        <option >Add ons</option>
+        <option >Ottoman</option>
+        <option >Coffee Table</option>
+        <option >Custom-fit cover</option>
+    </select>
+    <input type="number" value="1">
+    <button class="normal">Add to cart</button>
+    <h4>Product Details</h4>
+    <span>All that incredible modular innovation we’re known for? We took it outside. The Relay Collection builds upon our design team’s expertise and experience in creating comfortable, premium furniture for inside the house, and cranks up the durability for fun in the sun (and shade, and rain, and even snow). The frame is made from powder coated, galvanized steel that’ll never rust, the quick-dry cushions haven’t even heard of sponges, and the all-weather fabric repels liquids, dirt, and even UV rays. Don’t forget the SPF for yourself, though.</span>
+</div>
+</section>
+<section id="collection">
+    <h1>Explore each unique collection</h1>
+    <div class="collections">
+        <div>
+            <img src="https://media.graphassets.com/resize=w:908,fit:crop/output=format:webp/compress/hrcXqkzYRKK1JUis6mc2" alt="">
+        </div>
+        <div>
+            <img src="https://media.graphassets.com/resize=w:908,fit:crop/output=format:webp/compress/jHqzvSHQoyK3KptoSnpP "alt="">
+        </div>
+        <div class="collection-1">
+            <img src="https://media.graphassets.com/resize=w:908,fit:crop/output=format:webp/compress/ty1QjGGMTJOCWzLcaYtP "alt="">
+        </div>
+        <div class="collection-1">
+            <img src="https://media.graphassets.com/resize=w:908,fit:crop/output=format:webp/compress/J5xEdXE6SSWDQLrT1wyp"alt="">
+        </div>
+    </div>
+</section>
+<section id="subscribers">
+    <input type="text" placeholder="Sign up for couch needs">
+    <button>SUBSCRIBE</button>
+</section>
+<section id="footer">
+    <div class="services">
+        <ul>Shopping Services
+            <li>Schedule Consultation</li>
+            <li>Showrooms</li>
+            <li>Trade Program</li>
+            <li>Outlet</li>
+        </ul>
+    </div>
+    <div class="about">
+        <ul>About
+            <li>Our Story</li>
+            <li>Reviews</li>
+            <li>Careers</li>
+            <li>Financing</li>
+        </ul>
+    </div>
+    <div class="resources">
+        <ul>Resources
+            <li>Order Status</li>
+            <li>Assembly Instructions</li>
+            <li>Returns</li>
+            <li>FAQ</li>
+        </ul>
+    </div>
+
+</section>
+<script> var mainImg=document.getElementById("MainImg");
+    var smallimg=document.getElementsByClassName("small-img");
+
+    smallimg[0].onclick=function(){
+        MainImg.src=smallimg[0].src;
+    }
+    smallimg[1].onclick=function(){
+        MainImg.src=smallimg[1].src;
+    }
+    smallimg[2].onclick=function(){
+        MainImg.src=smallimg[2].src;
+    }
+    smallimg[3].onclick=function(){
+        MainImg.src=smallimg[3].src;
+    }
+    smallimg[4].onclick=function(){
+        MainImg.src=smallimg[4].src;
+    }
+    </script>
+    </body>
+    </html>
